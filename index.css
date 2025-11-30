@@ -1,0 +1,85 @@
+/* WEEK 16 STYLES */
+/* Clean card layout and modern form styling */
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #f5f6fa;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  max-width: 650px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.1);
+}
+
+/* Song card layout */
+.song-item {
+  background: #ffffff;
+  padding: 14px 18px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 14px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Buttons */
+button {
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+/* Button colors */
+.like-btn {
+  background: #6c5ce7;
+  color: white;
+}
+
+.like-btn:hover {
+  background: #5a4acb;
+}
+
+.delete-btn {
+  background: #d63031;
+  color: white;
+}
+
+.delete-btn:hover {
+  background: #b82525;
+}
+
+/* Form layout */
+.song-form {
+  margin-top: 30px;
+}
+
+.song-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.song-form button {
+  width: 100%;
+  background: #0984e3;
+  color: white;
+  font-size: 16px;
+}
+
+.song-form button:hover {
+  background: #0772c8;
+}
+
